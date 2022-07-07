@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Boqueixon</string>
+    <string name="turismo_de_boqueix_n">Turismo de Boqueixón</string>
+    <string name="botonmenu">BotonMenu</string>
+    <string name="logoboqueixon">LogoBoqueixon</string>
+    <string name="turismo_boqueixon">Turismo Boqueixón</string>
+    <string name="que_hacer">QUE HACER</string>
+    <string name="gastronomia">GASTRONOMIA</string>
+    <string name="alojamiento">ALOJAMIENTO</string>
+    <string name="pico_sacro">PICO SACRO</string>
+</resources>
