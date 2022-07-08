@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativePrincipal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PicoSacro"
+    android:padding="20dp">
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:backgroundTint="#FFFFFF"
+        android:contentDescription="@string/logoboqueixon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logoboqueixon"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-8dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@+id/imageButton2"
+        android:fontFamily="@font/nothing_you_could_do"
+        android:text="@string/turismo_de_boqueix_n"
+        android:textColor="#000000" />
+
+    <ImageButton
+        android:id="@+id/menuHamburguesa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:contentDescription="@string/botonmenu"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/menu_hamburguesa" />
+
+    <TextView
+        android:id="@+id/picoSacro"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/nothing_you_could_do"
+        android:gravity="center"
+        android:text="@string/pico_sacro"
+        android:textColor="@color/blueBoqueixonTitulos"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/picoSacro">
+
+        <RelativeLayout
+            android:id="@+id/relativePico"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textoPico"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textoPico"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textColor="@color/black"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:id="@+id/autorTextoPico"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textoPico"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/autorTextoPico"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <ImageButton
+                android:id="@+id/imaxeLocalización"
+                android:layout_width="40dp"
+                android:layout_height="53dp"
+                android:layout_below="@id/autorTextoPico"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="20dp"
+                android:background="#FFFFFF"
+                android:contentDescription="@string/localizacionPico"
+                android:scaleType="fitXY"
+                app:srcCompat="@mipmap/pinganillo" />
+
+            <TextView
+                android:id="@+id/localizacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/localizacionPico"
+                android:textSize="16dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_below="@+id/imaxeLocalización"/>
+
+            <ImageButton
+                android:id="@+id/imaxeCentroInterpretacion"
+                android:layout_width="60dp"
+                android:layout_height="48dp"
+                android:layout_below="@id/localizacion"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="20dp"
+                android:background="#FFFFFF"
+                android:contentDescription="@string/centroInterpretacionPico"
+                android:scaleType="fitXY"
+                app:srcCompat="@mipmap/ollo" />
+
+
+            <TextView
+                android:id="@+id/centroInterpretacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imaxeCentroInterpretacion"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:text="@string/centroInterpretacionPico"
+                android:textColor="@color/blueBoqueixon"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/siluetaPico"
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/centroInterpretacion"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="20dp"
+                android:background="#FFFFFF"
+                android:src="@mipmap/siluetapico" />
+
+            <TextView
+                android:id="@+id/monteSagrado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/siluetaPico"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/monteSagradoGalicia"
+                android:textColor="@color/blueBoqueixon"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/descargas"
+                android:layout_width="60dp"
+                android:layout_height="48dp"
+                android:layout_below="@id/monteSagrado"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="20dp"
+                android:background="#FFFFFF"
+                android:src="@mipmap/descarga" />
+
+            <TextView
+                android:id="@+id/descargaMultimedia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/descargas"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/descargaMultimedia"
+                android:textColor="@color/blueBoqueixon"
+                android:textSize="14dp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
