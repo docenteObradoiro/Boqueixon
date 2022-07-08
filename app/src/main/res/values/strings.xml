@@ -5,7 +5,103 @@
     <string name="logoboqueixon">LogoBoqueixon</string>
     <string name="turismo_boqueixon">Turismo Boqueixón</string>
     <string name="que_hacer">QUE HACER</string>
-    <string name="gastronomia">GASTRONOMIA</string>
+    <string name="gastronomia">GASTRONOMÍA</string>
+    <string name="gastronomiaMinusculas">Gastronomía</string>
     <string name="alojamiento">ALOJAMIENTO</string>
     <string name="pico_sacro">PICO SACRO</string>
+
+    <string name="boton_Boqueixon">Escudo de Boqueixon</string>
+    <string name="turismo_de_Boqueixon">Turismo de Boqueixón</string>
+    <string name="menu_hamburguesa">Menú hamburguesa</string>
+    <string name="ondeComer">Onde comer</string>
+    <string name="camporrapado">CAMPORRAPADO</string>
+    <string name="boqueixon">BOQUEIXÓN</string>
+    <string name="codeso">CODESO</string>
+    <string name="lamas">LAMAS</string>
+    <string name="lestedo">LESTEDO</string>
+    <string name="ledesma">LEDESMA</string>
+    <string name="loureda">LOUREDA</string>
+    <string name="sergude">SERGUDE</string>
+    <string name="oForte">O FORTE</string>
+    <string name="vigo">VIGO</string>
+
+    <string name="bares">Bares</string>
+    <string name="restaurantes">Restaurantes</string>
+    <string name="outrosEstablecementos">Outros establecementos</string>
+
+
+    <string name="cerveceríaAbadíaNome">Cervecería Abadía</string>
+    <string name="cerveceríaAbadiaTelf">981 514 067</string>
+
+    <string name="barGarciaNome">Café Bar García</string>
+    <string name="barGarciaTelf">981 512 406</string>
+
+    <string name="restOBaladoNome">Restaurante O Balado</string>
+    <string name="restOBaladoTelf">639893749/ 657290362</string>
+
+    <string name="restParrilladaCasaBreaNome">Parrillada Casa Brea</string>
+    <string name="restParrilladaCasaBreaTelf">676 062 078</string>
+
+    <string name="barCoutoNome">Café Bar Couto</string>
+    <string name="barCoutoTelf">981513094/ 676917180</string>
+
+    <string name="restPulperiaFontesNome">Pulpería Fontes</string>
+    <string name="restPulperiaFontesTelf">981 503 234</string>
+
+    <string name="barO26Nome">Café Bar O´26</string>
+    <string name="barO26Telf">627 532 212</string>
+
+    <string name="restFachalNome">Restaurante Fachal</string>
+    <string name="restFachalEspecialidade">Especialidad en Churrasco</string>
+    <string name="restFachalTelf">981503083/ 690182833</string>
+
+    <string name="barCerveceriaVikingoNome">Cervecería Vikingo</string>
+    <string name="barCerveceriaVikingoTelf">639832597</string>
+    <string name="restViaPrataNome">Restaurante Vía da Prata</string>
+    <string name="restViaPrataTelf">981502102/ 630941372</string>
+
+    <string name="restAPicotinaNome">Restaurante A Picotiña</string>
+    <string name="restAPicotinaEspecialidade">Especialidades en oreja y pulpo</string>
+    <string name="restAPicotinaTelf">981502390</string>
+
+    <string name="restDonSanchoNome">Restaurante Don Sancho</string>
+    <string name="restDonSanchoEspecialidade">Especialidad en bacalao.</string>
+    <string name="restDonSanchoTelf">981 514 241</string>
+
+    <string name="barQuintelaNome">Café Bar Quintela</string>
+    <string name="barQuintelaTelf">981 513 049</string>
+
+    <string name="restTabernaSanBenitoNome">A Taberna de San Benito</string>
+    <string name="restTabernaSanBenitoTelf">660097554</string>
+
+    <string name="restCasaCastroNome">Casa de comidas Casa Castro</string>
+    <string name="restCasaCastroTelf">981511823</string>
+
+    <string name="barVenteVindoNome">Café Bar Vente Vindo</string>
+    <string name="barVenteVindoTelf">981511947</string>
+
+    <string name="restParrilladaOBreixoNome">Parrillada O Breixo</string>
+    <string name="restParrilladaOBreixoTelf">981 814 703</string>
+
+
+    <string name="restTabernaOPortuguesNome">Taberna O Portugués</string>
+    <string name="restTabernaOPortuguesTelf">981 513 134</string>
+
+    <string name="barRestRosendeNome">Café Bar Restaurante Rosende</string>
+    <string name="barRestRosendeTelf">981 511 803</string>
+
+    <string name="barORecreoNome">Café Bar O Recreo</string>
+    <string name="barORecreoTelf">981 14 03 90</string>
+
+    <string name="restParrilladaACruzNome">Parrillada A Cruz</string>
+    <string name="restParrilladaACruzTelf">981513100/ 696290701</string>
+
+
+    <string name="gastronomiaDescricion">O Concello de Boqueixón conta cunha gastronomía baseada en produtos autóctonos de calidade (queixo, produtos da horta, pan, repostería, carne e viño da ribeira do Ulla, entre outros) e ofrece unha ampla variedade de exquisitos produtos locais, capaces de satisfacer os máis esixentes “paladares”.
+\n\nSon ben coñecidas neste municipio as exquisitas “filloas”, que poden degustarse na Festa da Filloa de Lestedo, que se celebra cada “domingo de piñata” (domingo seguinte ó martes de entroido), na que miles de persoas se achegan a degustar este produto nas súas diferentes formas de acompañamento (con mel, chourizos, azucre, nata,..)
+\n\nOs amantes do doce non poden deixar de probar a afamada “Tarta de Queixo de Lestedo” , elaborada por Tartas Lestedo, que ten un longo e exitoso percorrido de máis de 30 anos. Ademais desta, elaboran outras variedades (tarta de améndoa, tarta de Santiago (con IXP), tarta de “orujo”, tarta de chocolate, tarta de mazá e froitos do bosque),combinando tradición e experiencia con materias primas selectas.
+\n\nA Queixería Bo-Queixo de Orto, con Denominación de Orixe Protexida Arzúa-Ulloa, que conta con numerosas distincións (Ouro 2015 e 2016 e Plata 2015), elabora queixos artesanais con leite pasteurizada de máxima calidade, que resultan inconfundibles polo seu aroma, textura e sabor.
+\n\nAs numerosas pastelerías e panaderías do municipio: “Panadería San Cidre”, “Pastelería Elena bombonería”, “Panadería Fachal Pastelería”, “Pastelería Panadería Bo Dulce”, “O Forno de Lestedo”, contan cunha destacada elaboración tradicional e artesanal de pan, unha gran variedade de empanadas e unha ampla carta de doces e tortas feitas con materiais 100% naturais e de alta calidade.</string>
+
+
 </resources>
