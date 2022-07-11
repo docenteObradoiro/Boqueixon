@@ -9,10 +9,17 @@ import androidx.appcompat.app.AlertDialog
 import com.example.boqueixon.gastronomia.Gastronomia
 import com.example.boqueixon.gastronomia.OndeComer
 
+
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        var picoSacro=findViewById<Button>(R.id.buttonPicoSacro)
+        picoSacro.setOnClickListener {
+            val acceder= Intent(this, PicoSacro::class.java)
+            startActivity(acceder)
+        }
 
         var gastronomia = findViewById<Button>(R.id.buttonGastronomia)
         gastronomia.setOnClickListener {
