@@ -17,7 +17,39 @@
         android:theme="@style/Theme.Boqueixon"
         tools:targetApi="31">
         <activity
-
+            android:name=".RutaPrata"
+            android:exported="false" />
+        <activity
+            android:name=".RutaPescadores"
+            android:exported="false" />
+        <activity
+            android:name=".RutaPico"
+            android:exported="false" />
+        <activity
+            android:name=".Rutas"
+            android:exported="false" />
+        <activity
+            android:name=".AreasNaturais"
+            android:exported="false" />
+        <activity
+            android:name=".RelixiosasVerbenas"
+            android:exported="false" />
+        <activity
+            android:name=".Entroido"
+            android:exported="false" />
+        <activity
+            android:name=".Filloa"
+            android:exported="false" />
+        <activity
+            android:name=".FeirasMercados"
+            android:exported="false" />
+        <activity
+            android:name=".FestasEFeiras"
+            android:exported="false" />
+        <activity
+            android:name=".QueFacer"
+            android:exported="false" />
+        <activity
             android:name=".DescargasMultimedia"
             android:exported="false" />
         <activity
@@ -38,6 +70,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
+            
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

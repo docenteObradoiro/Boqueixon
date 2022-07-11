@@ -9,6 +9,92 @@
     <string name="alojamiento">ALOXAMENTO</string>
     <string name="pico_sacro">PICO SACRO</string>
 
+    <string name="quefacer">Que facer</string>
+    <string name="festas">Festas e feiras</string>
+    <string name="rutas">Rutas</string>
+    <string name="areasnaturais">Áreas naturais</string>
+
+    <string name="feiras">Feiras e mercados</string>
+    <string name="filloa">Festa da filloa</string>
+    <string name="infofilloa"><u>Lestedo. Domingo de piñata.</u>
+\n\nA festa da filloa nace polo Antroido do ano 1984, converténdose co paso do tempo nunha das festas gastronómicas máis importantes da comarca, atraendo cada
+        ano a milleiros de persoas ao campo da festa de Lestedo, lugar onde se celebra.
+\n\nO produto exaltado, a filloa, é a sobremesa de antroido por excelencia que consiste nunha masa preparada a base de leite, fariña e ovos que admite
+        diferentes formas de preparación. En Lestedo é posible degustalas soas, recheas de mel, de chourizo, etc.. As filloeiras contan que o gran segredo
+        da súa elaboración é manter a pedra na que se elaboran as filloas sempre á mesma temperatura, para que acaden unha textura semellante ó papel de fumar.</string>
+
+    <string name="entroido">Entroido</string>
+    <string name="infoentroido">A parroquias de Sergude dende hai mais de 50 anos  mais recentemente a de Lestedo, que recuperou esta tradición anos atrás,
+        protagonizan o tradicional Entroido da zona da Ulla, os Xenerais do Ulla,  os «Xenerais e Correos», cos seus atrancos e os seus altos.
+\n\nAs comparsas saen por parroquias e á fronte van os correos, en número indeterminado pero reducido, montados en elegantes cabalos e adiantados da comitiva
+        para anunciar a súa chegada. Son a avanzada do pequeno exército parroquial que chega detrás ao mando dos xenerais.
+\n\nUns e outros chaman a atención polos seus uniformes de gala e os seus tricornios cheos de plumas de cores cos que van percorrendo todas as aldeas lanzando
+        «vivas» ós veciños e entoando cánticos que rematan có «Encontro ou Atranque», auténtico enfrontamento verbal e rimado entre correos e xenerais de carácter
+        satírico e burlesco que é seguido atentamente polos veciños. Á fin, impoñerase ó tino e trala dureza dialéctica chegarase a un amaño pacífico.
+\n\nNa parroquia de Codeso celébrase un orixinal antroido protagonizado por unha fermosas carrozas fabricadas e decoradas polos veciños de cada aldea, convertidas
+        en auténticos teatros ambulantes, nas que se representan escenas satíricas relativas a noticias acontecidas nos últimos meses.
+</string>
+
+    <string name="relixiosas">Festas relixiosas e
+        \nverbenas</string>
+
+    <string name="areas">Áreas naturais</string>
+    <string name="titulogastrar"><u>Área recreativa de Gastrar</u></string>
+    <string name="infogastrar">Situada no acceso a esta parroquia dende o Forte (Casa do Concello), esta área recreativa forma un grato espazo de lecer.
+        Está acondicionada con bancos, asadores e parque infantil na beira dun pequeno regato e baixo unha gran carballeira.
+\n\nA área está escoltada polo Castro de Gastrar, asentamento fortificado da Idade do Ferro e por un muíño restaurado que aínda conserva a súa función.</string>
+
+    <string name="titulogres"><u>Área recreativa das Illas de Gres</u></string>
+    <string name="infogres">Situada na zona suroeste do municipio, localízase ao pé da ponte románica que atravesa o río Ulla. As catro pequenas illas están
+    unidas por pontes e son de gran beleza paisaxística. A área, baixo grandes carballos, conta con mesas, bancos, asadores de pedra para uso e gozo dos
+        visitantes, así como dunha fermosa praia fluvial.</string>
+
+    <string name="titulosucira"><u>Área recreativa de Sucira</u></string>
+    <string name="infosucira">No sur do Concello, na marxe dereita do Ulla, sitúase esta pequena parroquia, que conta cunha área recreativa situada nunha
+        carballeira de gran beleza e interese natural. É o lugar idoneo onde pasar un día en contacto coa natureza. Está dotada con bancos, asadores e todas
+        as comodidades para gozar dun día no río.</string>
+
+    <string name="titulosanpaio"><u>Área Natural da Capela de San Paio</u></string>
+    <string name="infosanpaio">Unha das paraxes máis completas e fermosas de Boqueixón. A carón desta capela da parroquia de Codeso podemos contemplar
+        unha fervenza, varios muíños restaurados, unha fonte milagreira e, seguindo un sinxelo sendeiro de menos dun kilómetro río abaixo, máis muíños e
+        unha segunda fervenza, todo inmerso nun frondoso e case intacto bosque de ribeira galego.</string>
+
+    <string name="rutas1">Rutas</string>
+    <string name="rutapico">Ruta do Pico Sacro</string>
+    <string name="comezopico">Comezo</string>
+    <string name="infocomezopico">Centro de interpretación do Pico Sacro</string>
+    <string name="rematepico">Punto de remate</string>
+    <string name="inforematepico">Pico Sacro</string>
+    <string name="distanciapico">Distancia</string>
+    <string name="infodistanciapico">2,650 m</string>
+    <string name="dificultadpico">Dificultade</string>
+    <string name="infodificultadpico">Media</string>
+    <string name="infoitinerariopico">A ruta comeza ao carón do Centro de Interpretación do Pico Sacro, situado no lugar de Cachosenande.
+        Dende ali empréndese a subida por un fermoso sendeiro que a medida que avanza colle un maior desnivel. Esta senda chega ata o depósito de auga,
+        subindo por camiños forestais. Dende o depósito cóllese á esquerda e chégase á cima á Capela de San Sebastián e á cima do Pico Sacro.</string>
+
+    <string name="rutapescador">Ruta de Pescadores e Río Grande</string>
+    <string name="infocomezopescador">Ponte Ledesma</string>
+    <string name="infodistanciapescador">9,6 km</string>
+    <string name="infodificultadpescador">Media-Baixa</string>
+    <string name="infoitinerariopescador">O punto de partida desta ruta é a Ponte Ledesma, un núcleo poboacional cun conxunto etnográfico moi importante:
+        Igrexa Divino Salvador de Ledesma, a Ponte Vella de Ledesma e as Ínsuas de Gres sobre o Ulla. Percórrese un roteiro de Pescadores, tramo da Rede
+        Natura 2000, un espazo natural protexido, e séguese por unha  fermosa senda de pescadores cunhas vistas de gran beleza ata a parroquia de Donas.
+        A ruta continúa polo roteiro do Río Grande que leva á Capela de San Paio en Codeso, rematando nunha fervenza de 7 m de altura.</string>
+
+    <string name="rutaprata">Ruta Vía da Prata e Camiño de Inverno</string>
+    <string name="infoitinerarioprata">O Camiño do Sueste, ou Vía da Prata, percorre por Galicia un patrimonio natural e etnográfico de excepción: a
+    enorme riqueza da provincia de Ourense, a comarca do Deza e o curso do río Ulla preséntanse ante o caminante cheos de atractivos.
+    \n\nO seu paso por Boqueixón, a ruta deixa atrás Vilanova (Vedra) e adéntrase no noso municipio pasando pola beira do Pico Sacro, que cos seus máis de
+    cincocentos metros de altura, preside as paisaxes da contorna. Este monte está vinculado á tradición da Translatio do corpo do Apóstolo de Iria Flavia a
+    Compostela.
+    \n\nDeixando atrás este lugar o camiño segue por donde o Cruceiro de Castrelo e continúa ata Rubial, onde tamén atopamos outro fermoso cruceiro.
+    Continuamos por Deseiro de Arriba e a ruta chega xa ao municipio de Santiago de Compostela a través da localidade de A Susana.
+    \n\nOutra das Rutas Xacobeas que pasan polo noso concello é o Camiño de Inverno que ao seu paso por Boqueixón segue polo mesmo trazado que a Vía da Prata
+        ou Camiño do Sueste.</string>
+=======
+    <string name="pico_sacro">PICO SACRO</string>
+
     <string name="textoPico">“Representade na vosa imaxinación unha pirámide colosal sobre o horizonte dun val, un obelisco xigantesco que sae encontro das paisaxes da veiga, unha montaña cónica, coroada, coma a Cibeles da mitoloxía, con fantásticas ameas de cuarzo: velaquí o Pico-Sagro da Ulla-baixa.
         \n\nEsta eminencia é o cráter dos aguaceiros e a fragua dos raios. É o símbolo do misterio e da soidade. A pirámide é unha figura xeométrica que pertence á relixión desde que se colocou sobre os sepulcros. Montaña ou catafalco, a pirámide é a mensaxeira dunha resignada melancolía. 
         O Pico-Sagro é observado, consultado e espiado polos habitantes da Ulla-baixa. É o pai tutelar da comarca: é un barómetro colosal. Parecese ao avó dunha familia, que onde queira que se presente é saudado con respetuosa veneración.
@@ -154,6 +240,7 @@
 \n\nOs amantes do doce non poden deixar de probar a afamada “Tarta de Queixo de Lestedo” , elaborada por Tartas Lestedo, que ten un longo e exitoso percorrido de máis de 30 anos. Ademais desta, elaboran outras variedades (tarta de améndoa, tarta de Santiago (con IXP), tarta de “orujo”, tarta de chocolate, tarta de mazá e froitos do bosque),combinando tradición e experiencia con materias primas selectas.
 \n\nA Queixería Bo-Queixo de Orto, con Denominación de Orixe Protexida Arzúa-Ulloa, que conta con numerosas distincións (Ouro 2015 e 2016 e Plata 2015), elabora queixos artesanais con leite pasteurizada de máxima calidade, que resultan inconfundibles polo seu aroma, textura e sabor.
 \n\nAs numerosas pastelerías e panaderías do municipio: “Panadería San Cidre”, “Pastelería Elena bombonería”, “Panadería Fachal Pastelería”, “Pastelería Panadería Bo Dulce”, “O Forno de Lestedo”, contan cunha destacada elaboración tradicional e artesanal de pan, unha gran variedade de empanadas e unha ampla carta de doces e tortas feitas con materiais 100% naturais e de alta calidade.</string>
+
 
 
 </resources>
