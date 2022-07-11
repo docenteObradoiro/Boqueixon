@@ -4,7 +4,7 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
-tools:context=".gastronomia.Bares">
+tools:context=".gastronomia.OutrosEstablecementos">
 
 <ImageButton
     android:id="@+id/imgBtLogo"
@@ -47,7 +47,7 @@ tools:context=".gastronomia.Bares">
     app:srcCompat="@drawable/menu_hamburguesa" />
 
 <TextView
-    android:id="@+id/tvBares"
+    android:id="@+id/tvOutrosEstablecementos"
     android:layout_width="280dp"
     android:layout_height="50dp"
     android:layout_alignParentStart="true"
@@ -56,7 +56,7 @@ tools:context=".gastronomia.Bares">
     android:layout_marginTop="100dp"
     android:fontFamily="@font/nothing_you_could_do"
     android:gravity="center"
-    android:text="@string/bares"
+    android:text="@string/outrosEstablecementos"
     android:textColor="@color/blueBoqueixonTitulos"
     android:textSize="34sp"
     android:textStyle="bold" />
@@ -69,8 +69,7 @@ tools:context=".gastronomia.Bares">
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginLeft="20dp"
-    android:layout_below="@id/tvBares"
-    android:layout_marginTop="30dp"
+    android:layout_below="@id/tvOutrosEstablecementos"
     android:layout_marginRight="20dp"
     app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
@@ -83,6 +82,7 @@ tools:context=".gastronomia.Bares">
         android:orientation="vertical"
         tools:context=".MainActivity">
 
+
         <TextView
             android:id="@+id/tvClasificacionParroquias"
             android:layout_width="match_parent"
@@ -90,6 +90,22 @@ tools:context=".gastronomia.Bares">
             android:layout_marginStart="15dp"
             android:layout_marginBottom="10dp"
             android:text="@string/clasificacionParroquias" />
+
+        <TextView
+            android:id="@+id/tvBoqueixon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:textStyle="bold"
+            android:text="@string/boqueixon" />
+
+        <ImageView
+            android:id="@+id/imgBoQueixo"
+            android:layout_width="match_parent"
+            android:layout_height="256dp"
+            android:contentDescription="@string/queixeriaBoQueixo"
+            app:srcCompat="@mipmap/boqueixo" />
+
         <TextView
             android:id="@+id/tvCamporrapado"
             android:layout_width="match_parent"
@@ -98,42 +114,12 @@ tools:context=".gastronomia.Bares">
             android:textStyle="bold"
             android:text="@string/camporrapado" />
 
-        <ImageView
-            android:id="@+id/imgCerveceriaAbadia"
+        <org.imaginativeworld.whynotimagecarousel.ImageCarousel
+            android:id="@+id/carousel4"
             android:layout_width="match_parent"
-            android:layout_height="256dp"
-            android:contentDescription="@string/cerveceríaAbadíaNome"
-            app:srcCompat="@mipmap/barabadia" />
+            android:layout_height="256dp"/>
 
 
-        <TextView
-            android:id="@+id/tvCodeso"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="15dp"
-            android:textStyle="bold"
-            android:text="@string/codeso" />
-        <ImageView
-            android:id="@+id/imgBarGarcia"
-            android:layout_width="match_parent"
-            android:layout_height="256dp"
-            android:contentDescription="@string/barGarciaNome"
-            app:srcCompat="@mipmap/bargarcia" />
-
-
-        <TextView
-            android:id="@+id/tvLamas"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:layout_marginStart="15dp"
-            android:text="@string/lamas" />
-        <ImageView
-            android:id="@+id/imgBarCouto"
-            android:layout_width="match_parent"
-            android:layout_height="256dp"
-            android:contentDescription="@string/barCoutoNome"
-            app:srcCompat="@mipmap/barcouto" />
 
         <TextView
             android:id="@+id/tvLestedo"
@@ -149,37 +135,22 @@ tools:context=".gastronomia.Bares">
             android:layout_height="256dp"/>
 
 
+
         <TextView
-            android:id="@+id/tvLoureda"
+            android:id="@+id/tvSergude"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
             android:textStyle="bold"
-            android:text="@string/loureda" />
+            android:text="@string/sergude" />
+
 
         <ImageView
-            android:id="@+id/cafeBarQuintela"
+            android:id="@+id/imgPanaderiaFachal"
             android:layout_width="match_parent"
             android:layout_height="256dp"
-            android:contentDescription="@string/barQuintelaNome"
-            app:srcCompat="@mipmap/barquintela" />
-
-
-        <TextView
-            android:id="@+id/tvOForte"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="15dp"
-            android:textStyle="bold"
-            android:text="@string/oForte" />
-
-        <ImageView
-            android:id="@+id/barORecreo"
-            android:layout_width="match_parent"
-            android:layout_height="256dp"
-            android:contentDescription="@string/barORecreoNome"
-            app:srcCompat="@mipmap/barorecreo" />
-
+            android:contentDescription="@string/panaderiaFachal"
+            app:srcCompat="@mipmap/panaderiafachal" />
 
 
     </LinearLayout>

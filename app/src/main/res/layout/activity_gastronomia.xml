@@ -76,15 +76,14 @@ android:padding="20dp">
         android:layout_height="wrap_content"
         android:orientation="vertical" >
 
-
         <ImageButton
-            android:id="@+id/btOutrosEstablecementos"
+            android:id="@+id/btBares"
             android:layout_width="match_parent"
             android:layout_height="265dp"
             android:scaleType="fitXY"
             android:background="@color/white"
-            android:contentDescription="@string/outrosEstablecementos"
-            app:srcCompat="@mipmap/iconooutrosestablecementos" />
+            android:contentDescription="@string/bares"
+            app:srcCompat="@mipmap/iconobares" />
 
 
         <ImageButton
@@ -96,14 +95,27 @@ android:padding="20dp">
             android:contentDescription="@string/restaurantes"
             app:srcCompat="@mipmap/iconorestaurantes" />
 
+
+
+
         <ImageButton
-            android:id="@+id/btBares"
+            android:id="@+id/btOutrosEstablecementos"
             android:layout_width="match_parent"
             android:layout_height="265dp"
             android:scaleType="fitXY"
             android:background="@color/white"
-            android:contentDescription="@string/bares"
-            app:srcCompat="@mipmap/iconobares" />
+            android:contentDescription="@string/outrosEstablecementos"
+            app:srcCompat="@mipmap/iconooutrosestablecementos" />
+
+
+        <TextView
+            android:id="@+id/tvTituloTextoGastronomia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blueBoqueixonTitulos"
+            android:layout_marginBottom="20dp"
+            android:text="@string/gastronomiaTitulo" />
+
 
 
         <TextView

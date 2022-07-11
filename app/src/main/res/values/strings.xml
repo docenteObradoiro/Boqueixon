@@ -9,6 +9,7 @@
     <string name="gastronomiaMinusculas">Gastronomía</string>
     <string name="alojamiento">ALOJAMIENTO</string>
     <string name="pico_sacro">PICO SACRO</string>
+    <string name="clasificacionParroquias">Clasificación por parroquias:</string>
 
     <string name="boton_Boqueixon">Escudo de Boqueixon</string>
     <string name="turismo_de_Boqueixon">Turismo de Boqueixón</string>
@@ -28,6 +29,9 @@
     <string name="bares">Bares</string>
     <string name="restaurantes">Restaurantes</string>
     <string name="outrosEstablecementos">Outros establecementos</string>
+
+    <string name="queixeriaBoQueixo">Queixería Bo Queixo</string>
+    <string name="panaderiaFachal">Panadaría Fachal</string>
 
 
     <string name="cerveceríaAbadíaNome">Cervecería Abadía</string>
@@ -95,6 +99,10 @@
 
     <string name="restParrilladaACruzNome">Parrillada A Cruz</string>
     <string name="restParrilladaACruzTelf">981513100/ 696290701</string>
+
+
+
+    <string name="gastronomiaTitulo">Coñécenos!</string>
 
 
     <string name="gastronomiaDescricion">O Concello de Boqueixón conta cunha gastronomía baseada en produtos autóctonos de calidade (queixo, produtos da horta, pan, repostería, carne e viño da ribeira do Ulla, entre outros) e ofrece unha ampla variedade de exquisitos produtos locais, capaces de satisfacer os máis esixentes “paladares”.

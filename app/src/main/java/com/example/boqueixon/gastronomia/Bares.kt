@@ -24,8 +24,9 @@ class Bares : AppCompatActivity() {
 
 
         val carruselLestedo: ImageCarousel = findViewById(R.id.carousel3)
-        listaLestedo.add(CarouselItem(R.mipmap.barovikingo))
         listaLestedo.add(CarouselItem(R.mipmap.barovinteseis))
+        listaLestedo.add(CarouselItem(R.mipmap.barvikingo))
+
 
 
         carruselLestedo.addData(listaLestedo)
@@ -35,4 +36,7 @@ class Bares : AppCompatActivity() {
 
 
     }
+//    override fun ImageCarousel(){
+//
+//    }
 }
