@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativePrincipal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CentroInterpretacion"
+    android:padding="20dp">
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:backgroundTint="#FFFFFF"
+        android:contentDescription="@string/logoboqueixon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logoboqueixon"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-8dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@+id/imageButton2"
+        android:fontFamily="@font/nothing_you_could_do"
+        android:text="@string/turismo_de_boqueix_n"
+        android:textColor="#000000" />
+
+    <ImageButton
+        android:id="@+id/menuHamburguesa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:contentDescription="@string/botonmenu"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/menu_hamburguesa" />
+
+    <TextView
+        android:id="@+id/centroInterpretacion"
+        android:layout_width="280dp"
+        android:layout_height="140dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/nothing_you_could_do"
+        android:gravity="center"
+        android:text="@string/centroInterpretacionPico"
+        android:textColor="@color/blueBoqueixonTitulos"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/centroInterpretacion">
+
+        <RelativeLayout
+            android:id="@+id/relativeCentro"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/localizacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/localizacion"
+                android:textColor="@color/blueBoqueixon"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textoPico"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/localizacion"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/textoLocalizacion"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/ofrece"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textoPico"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/picoOfrece"
+                android:textColor="@color/blueBoqueixon"
+                android:textSize="16dp" />
+
+            <HorizontalScrollView
+                android:id="@+id/scrollView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ofrece"
+                android:layout_marginTop="-3dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/textointerior"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/textoInterior"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textoVisita"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="18dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:text="@string/textoVisita"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <ImageView
+                android:id="@+id/raiñaLupa"
+                android:layout_width="220dp"
+                android:layout_height="120dp"
+                android:layout_below="@id/scrollView"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="60dp"
+                android:background="#FFFFFF"
+                android:src="@mipmap/rainalupa" />
+
+            <TextView
+                android:id="@+id/contactoInterpretacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/raiñaLupa"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/contacto"
+                android:textColor="@color/blueBoqueixon"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/telefonoInterpretacion"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/contactoInterpretacion"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/ic_baseline_phone_24"
+                android:gravity="center"
+                android:text="@string/telefonoInterpretacion"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/mailInterpretacion"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/telefonoInterpretacion"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/ic_baseline_mail_24"
+                android:gravity="center"
+                android:text="@string/mailTurismo"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <HorizontalScrollView
+                android:id="@+id/scrollView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mailInterpretacion"
+                android:layout_marginTop="-3dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/fotoScroll1"
+                        android:layout_width="180dp"
+                        android:layout_height="130dp"
+                        android:backgroundTint="#00B8AEAE"
+                        android:contentDescription="casaCentroInterpretacion"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@mipmap/scrollinterpretacion1" />
+
+                    <ImageButton
+                        android:id="@+id/fotoScroll2"
+                        android:layout_width="180dp"
+                        android:layout_height="130dp"
+                        android:backgroundTint="#00B8AEAE"
+                        android:contentDescription="Exposicion centro 1"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@mipmap/scrollinterpretacion2" />
+                    <ImageButton
+                        android:id="@+id/fotoScroll3"
+                        android:layout_width="180dp"
+                        android:layout_height="130dp"
+                        android:backgroundTint="#00B8AEAE"
+                        android:contentDescription="Exposicion centro 2"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@mipmap/scrollinterpretacion3" />
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -3,13 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.boqueixon">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logoboqueixon"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/logoboqueixon"
         android:supportsRtl="true"
         android:theme="@style/Theme.Boqueixon"
         tools:targetApi="31">
@@ -20,6 +23,51 @@
             android:name=".gastronomia.Bares"
             android:exported="false" />
         <activity
+            android:name=".RutaPrata"
+            android:exported="false" />
+        <activity
+            android:name=".RutaPescadores"
+            android:exported="false" />
+        <activity
+            android:name=".RutaPico"
+            android:exported="false" />
+        <activity
+            android:name=".Rutas"
+            android:exported="false" />
+        <activity
+            android:name=".AreasNaturais"
+            android:exported="false" />
+        <activity
+            android:name=".RelixiosasVerbenas"
+            android:exported="false" />
+        <activity
+            android:name=".Entroido"
+            android:exported="false" />
+        <activity
+            android:name=".Filloa"
+            android:exported="false" />
+        <activity
+            android:name=".FeirasMercados"
+            android:exported="false" />
+        <activity
+            android:name=".FestasEFeiras"
+            android:exported="false" />
+        <activity
+            android:name=".QueFacer"
+            android:exported="false" />
+        <activity
+            android:name=".DescargasMultimedia"
+            android:exported="false" />
+        <activity
+            android:name=".MonteSagrado"
+            android:exported="false" />
+        <activity
+            android:name=".CentroInterpretacion"
+            android:exported="false" />
+        <activity
+            android:name=".PicoSacro"
+            android:exported="false" />
+        <activity
             android:name=".gastronomia.Gastronomia"
             android:exported="false" />
         <activity
@@ -28,6 +76,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
+            
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -38,6 +87,11 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".Alojamiento.Alojamiento"
+            android:exported="false" />
+
     </application>
 
 </manifest>
