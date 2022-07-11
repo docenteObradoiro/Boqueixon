@@ -19,32 +19,32 @@ class Alojamiento : AppCompatActivity() {
 
 
         val carruselAlbergueRainaLupa:ImageCarousel= findViewById(R.id.carousel1)
-        albergueRainaLupa.add(CarouselItem(R.drawable.logoboqueixon))
-        albergueRainaLupa.add(CarouselItem(R.drawable.logoboqueixon))
+        albergueRainaLupa.add(CarouselItem(R.drawable.albergue_rai_a_lupa1))
+        albergueRainaLupa.add(CarouselItem(R.drawable.albergue_rai_a_lupa_texto))
         carruselAlbergueRainaLupa.addData(albergueRainaLupa)
 
         carruselAlbergueRainaLupa.showTopShadow = false
         carruselAlbergueRainaLupa.showBottomShadow = false
 
         val carruselCasaDeCasal:ImageCarousel= findViewById(R.id.carousel2)
-        casaDeCasal.add(CarouselItem(R.drawable.logoboqueixon))
-        casaDeCasal.add(CarouselItem(R.drawable.logoboqueixon))
+        casaDeCasal.add(CarouselItem(R.drawable.casa_de_casal1))
+        casaDeCasal.add(CarouselItem(R.drawable.casa_de_casal_texto))
         carruselCasaDeCasal.addData(casaDeCasal)
 
         carruselCasaDeCasal.showTopShadow = false
         carruselCasaDeCasal.showBottomShadow = false
 
         val carruselCasaDeLamas:ImageCarousel= findViewById(R.id.carousel3)
-        casaDeLamas.add(CarouselItem(R.drawable.logoboqueixon))
-        casaDeLamas.add(CarouselItem(R.drawable.logoboqueixon))
+        casaDeLamas.add(CarouselItem(R.drawable.casa_de_lamas1))
+        casaDeLamas.add(CarouselItem(R.drawable.casa_de_lamas_texto))
         carruselCasaDeLamas.addData(casaDeLamas)
 
         carruselCasaDeLamas.showTopShadow = false
         carruselCasaDeLamas.showBottomShadow = false
 
         val carruselMariaManuelaEnoturismo:ImageCarousel= findViewById(R.id.carousel4)
-        mariaManuelaEnoturismo.add(CarouselItem(R.drawable.logoboqueixon))
-        mariaManuelaEnoturismo.add(CarouselItem(R.drawable.logoboqueixon))
+        mariaManuelaEnoturismo.add(CarouselItem(R.drawable.maria_manuela_enoturismo1))
+        mariaManuelaEnoturismo.add(CarouselItem(R.drawable.maria_manuela_enoturismo_texto))
         carruselMariaManuelaEnoturismo.addData(mariaManuelaEnoturismo)
 
         carruselMariaManuelaEnoturismo.showTopShadow = false
