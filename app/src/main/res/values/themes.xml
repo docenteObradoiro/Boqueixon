@@ -17,6 +17,7 @@
     <style name="botonGrande">
         <item name="android:layout_height">180dp</item>
         <item name="android:layout_width">180dp</item>
+    </style>
 
     <style name="AlertTheme" parent="Theme.AppCompat.Dialog.Alert">
 

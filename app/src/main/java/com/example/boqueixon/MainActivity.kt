@@ -19,28 +19,31 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        var buttonQueFacer=findViewById<Button>(R.id.buttonQueFacer)
+        var buttonQueFacer = findViewById<Button>(R.id.buttonQueFacer)
         buttonQueFacer.setOnClickListener {
-            val acceder= Intent(this, QueFacer::class.java)
+            val acceder = Intent(this, QueFacer::class.java)
+            startActivity(acceder)
+        }
 
         var accesoAlojamiento = findViewById<Button>(R.id.buttonAloxamento)
-        accesoAlojamiento.setOnClickListener{
+        accesoAlojamiento.setOnClickListener {
             val acceder = Intent(this, Alojamiento::class.java)
             startActivity(acceder)
         }
 
-        var picoSacro=findViewById<Button>(R.id.buttonPicoSacro)
+        var picoSacro = findViewById<Button>(R.id.buttonPicoSacro)
         picoSacro.setOnClickListener {
-            val acceder= Intent(this, PicoSacro::class.java)
+            val acceder = Intent(this, PicoSacro::class.java)
             startActivity(acceder)
         }
 
         var gastronomia = findViewById<Button>(R.id.buttonGastronomia)
         gastronomia.setOnClickListener {
-            val acceder = Intent (this, Gastronomia::class.java)
+            val acceder = Intent(this, Gastronomia::class.java)
             startActivity(acceder)
         }
-    }
+
+        }
 
     override fun onBackPressed() {
         myAlert(this)
