@@ -20,6 +20,11 @@ class Gastronomia : AppCompatActivity() {
             startActivity(acceder)
         }
 
+        val outrosEstablecementos = findViewById<ImageButton>(R.id.btOutrosEstablecementos)
+        outrosEstablecementos.setOnClickListener {
+            val acceder = Intent (this, OutrosEstablecementos::class.java)
+            startActivity(acceder)
+        }
         val ondeComer = findViewById<ImageButton>(R.id.btRestaurantes)
         ondeComer.setOnClickListener {
             val acceder = Intent (this, OndeComer::class.java)

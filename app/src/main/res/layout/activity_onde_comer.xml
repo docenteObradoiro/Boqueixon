@@ -46,6 +46,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/menu_hamburguesa" />
 
+
     <TextView
         android:id="@+id/tvOndeComer"
         android:layout_width="280dp"
@@ -81,19 +82,28 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             tools:context=".MainActivity">
-            <!-- REVISAR OS TEXT VIEWS (marxes)-->
+
+
+            <TextView
+                android:id="@+id/tvClasificacionParroquias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/clasificacionParroquias" />
+
             <TextView
                 android:id="@+id/tvcodeso"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp"
+                android:layout_marginStart="15dp"
+                android:textStyle="bold"
                 android:text="@string/codeso" />
 
             <ImageView
                 android:id="@+id/imgrestauranteOBalado"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="30dp"
+                android:layout_height="256dp"
                 android:contentDescription="@string/restOBaladoNome"
                 app:srcCompat="@mipmap/restobalado" />
 
@@ -101,15 +111,14 @@
                 android:id="@+id/tvLamas"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="15dp"
+                android:layout_marginStart="15dp"
+                android:textStyle="bold"
                 android:text="@string/lamas" />
 
             <ImageView
                 android:id="@+id/imgrestParrilladaCasaBrea"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="30dp"
+                android:layout_height="256dp"
                 android:contentDescription="@string/restParrilladaCasaBreaNome"
                 app:srcCompat="@mipmap/restparrilladacasabrea" />
 
@@ -117,28 +126,28 @@
                 android:id="@+id/tvLestedo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp"
+                android:layout_marginStart="15dp"
+                android:textStyle="bold"
                 android:text="@string/lestedo" />
 
             <org.imaginativeworld.whynotimagecarousel.ImageCarousel
                 android:id="@+id/carousel3"
                 android:layout_width="match_parent"
-                android:layout_height="256dp"
-                android:layout_marginBottom="30dp" />
+                android:layout_height="256dp"/>
 
 
             <TextView
                 android:id="@+id/tvLedesma"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp"
+                android:layout_marginStart="15dp"
+                android:textStyle="bold"
                 android:text="@string/ledesma" />
 
             <ImageView
                 android:id="@+id/imgrestauranteDonSancho"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="30dp"
+                android:layout_height="256dp"
                 android:contentDescription="@string/restDonSanchoNome"
                 app:srcCompat="@mipmap/restdonsancho" />
 
@@ -148,28 +157,28 @@
                 android:id="@+id/tvSergude"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp"
+                android:layout_marginStart="15dp"
+                android:textStyle="bold"
                 android:text="@string/sergude" />
 
             <org.imaginativeworld.whynotimagecarousel.ImageCarousel
                 android:id="@+id/carousel4"
                 android:layout_width="match_parent"
-                android:layout_height="256dp"
-                android:layout_marginBottom="30dp" />
+                android:layout_height="256dp"/>
 
 
             <TextView
                 android:id="@+id/tvVigo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp"
+                android:layout_marginStart="15dp"
+                android:textStyle="bold"
                 android:text="@string/vigo" />
 
             <ImageView
                 android:id="@+id/parrilladaACruz"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="30dp"
+                android:layout_height="256dp"
                 android:contentDescription="@string/restParrilladaACruzNome"
                 app:srcCompat="@mipmap/restparrilladaacruz" />
 
