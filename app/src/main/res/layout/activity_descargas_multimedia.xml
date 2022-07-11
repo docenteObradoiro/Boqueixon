@@ -1,9 +1,236 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativePrincipal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DescargasMultimedia">
+    tools:context=".DescargasMultimedia"
+    android:padding="20dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:backgroundTint="#FFFFFF"
+        android:contentDescription="@string/logoboqueixon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logoboqueixon"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-8dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@+id/imageButton2"
+        android:fontFamily="@font/nothing_you_could_do"
+        android:text="@string/turismo_de_boqueix_n"
+        android:textColor="#000000" />
+
+    <ImageButton
+        android:id="@+id/menuHamburguesa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:contentDescription="@string/botonmenu"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/menu_hamburguesa" />
+
+    <TextView
+        android:id="@+id/descargasTitulo"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/nothing_you_could_do"
+        android:gravity="center"
+        android:text="@string/descargaMultimedia"
+        android:textColor="@color/blueBoqueixonTitulos"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/descargasTitulo">
+
+        <RelativeLayout
+            android:id="@+id/relativePico"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/libros"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:drawableLeft="@drawable/ic_baseline_menu_book_24"
+                android:text="@string/libros"
+                android:textColor="@color/blueBoqueixon"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/libro1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/libros"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/ic_baseline_link_24"
+                android:gravity="center"
+                android:text="@string/libro1"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/folletos"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/libro1"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:drawableLeft="@drawable/ic_baseline_library_books_24"
+                android:text="@string/folletos"
+                android:textColor="@color/blueBoqueixon"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/folleto1"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/folletos"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/ic_baseline_link_24"
+                android:gravity="center"
+                android:text="@string/folleto1"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/folleto2"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/folleto1"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/ic_baseline_link_24"
+                android:gravity="center"
+                android:text="@string/folleto2"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/folleto3"
+                android:layout_width="102dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/folleto2"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/ic_baseline_link_24"
+                android:gravity="center"
+                android:text="@string/folleto3"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/folleto4"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/folleto3"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/ic_baseline_link_24"
+                android:gravity="center"
+                android:text="@string/folleto4"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/videos"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/folleto4"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:drawableLeft="@drawable/ic_baseline_library_books_24"
+                android:text="@string/videos"
+                android:textColor="@color/blueBoqueixon"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/video1"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/videos"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/ic_baseline_link_24"
+                android:gravity="center"
+                android:text="@string/video1"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/video2"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/video1"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/ic_baseline_link_24"
+                android:gravity="center"
+                android:text="@string/video2"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/video3"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/video2"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:drawableLeft="@drawable/ic_baseline_link_24"
+                android:gravity="center"
+                android:text="@string/video3"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>
