@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".gastronomia.Bares">
+
+<ImageButton
+    android:id="@+id/imgBtLogo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:backgroundTint="#FFFFFF"
+    android:contentDescription="@string/logoboqueixon"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:srcCompat="@drawable/logoboqueixon"
+    tools:ignore="TouchTargetSizeCheck" />
+
+<TextView
+    android:id="@+id/tvTurismoBoqueixon"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="-8dp"
+    android:layout_marginTop="40dp"
+    android:layout_toEndOf="@+id/imgBtLogo"
+    android:fontFamily="@font/nothing_you_could_do"
+    android:text="@string/turismo_de_boqueix_n"
+    android:textColor="#000000" />
+
+<ImageButton
+    android:id="@+id/menuHamburguesa"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+    android:layout_marginTop="20dp"
+    android:background="#FFFFFF"
+    android:contentDescription="@string/botonmenu"
+    android:minWidth="48dp"
+    android:minHeight="48dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:srcCompat="@drawable/menu_hamburguesa" />
+
+<TextView
+    android:id="@+id/tvBares"
+    android:layout_width="280dp"
+    android:layout_height="50dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+    android:layout_marginTop="100dp"
+    android:fontFamily="@font/nothing_you_could_do"
+    android:gravity="center"
+    android:text="@string/bares"
+    android:textColor="@color/blueBoqueixonTitulos"
+    android:textSize="34sp"
+    android:textStyle="bold" />
+
+
+
+
+<ScrollView
+    android:id="@+id/scrollView3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_below="@id/tvBares"
+    android:layout_marginTop="30dp"
+    android:layout_marginRight="20dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/tvClasificacionParroquias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/clasificacionParroquias" />
+        <TextView
+            android:id="@+id/tvCamporrapado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:textStyle="bold"
+            android:text="@string/camporrapado" />
+
+        <ImageView
+            android:id="@+id/imgCerveceriaAbadia"
+            android:layout_width="match_parent"
+            android:layout_height="256dp"
+            android:contentDescription="@string/cerveceríaAbadíaNome"
+            app:srcCompat="@mipmap/barabadia" />
+
+
+        <TextView
+            android:id="@+id/tvCodeso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:textStyle="bold"
+            android:text="@string/codeso" />
+        <ImageView
+            android:id="@+id/imgBarGarcia"
+            android:layout_width="match_parent"
+            android:layout_height="256dp"
+            android:contentDescription="@string/barGarciaNome"
+            app:srcCompat="@mipmap/bargarcia" />
+
+
+        <TextView
+            android:id="@+id/tvLamas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginStart="15dp"
+            android:text="@string/lamas" />
+        <ImageView
+            android:id="@+id/imgBarCouto"
+            android:layout_width="match_parent"
+            android:layout_height="256dp"
+            android:contentDescription="@string/barCoutoNome"
+            app:srcCompat="@mipmap/barcouto" />
+
+        <TextView
+            android:id="@+id/tvLestedo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:textStyle="bold"
+            android:text="@string/lestedo" />
+
+        <org.imaginativeworld.whynotimagecarousel.ImageCarousel
+            android:id="@+id/carousel3"
+            android:layout_width="match_parent"
+            android:layout_height="256dp"/>
+
+
+        <TextView
+            android:id="@+id/tvLoureda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:textStyle="bold"
+            android:text="@string/loureda" />
+
+        <ImageView
+            android:id="@+id/cafeBarQuintela"
+            android:layout_width="match_parent"
+            android:layout_height="256dp"
+            android:contentDescription="@string/barQuintelaNome"
+            app:srcCompat="@mipmap/barquintela" />
+
+
+        <TextView
+            android:id="@+id/tvOForte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:textStyle="bold"
+            android:text="@string/oForte" />
+
+        <ImageView
+            android:id="@+id/barORecreo"
+            android:layout_width="match_parent"
+            android:layout_height="256dp"
+            android:contentDescription="@string/barORecreoNome"
+            app:srcCompat="@mipmap/barorecreo" />
+
+
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>
