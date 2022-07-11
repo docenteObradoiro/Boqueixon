@@ -17,6 +17,7 @@
         android:theme="@style/Theme.Boqueixon"
         tools:targetApi="31">
         <activity
+
             android:name=".DescargasMultimedia"
             android:exported="false" />
         <activity
@@ -27,6 +28,12 @@
             android:exported="false" />
         <activity
             android:name=".PicoSacro"
+            android:exported="false" />
+        <activity
+            android:name=".gastronomia.Gastronomia"
+            android:exported="false" />
+        <activity
+            android:name=".gastronomia.OndeComer"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
