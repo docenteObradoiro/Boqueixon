@@ -37,7 +37,5 @@ class MonteSagrado : AppCompatActivity() {
         iconoAvion.setOnClickListener{
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/d/u/0/viewer?ie=UTF8&t=m&source=embed&oe=UTF8&msa=0&mid=15KV8VpFfq_BbYfkvgOLj1YqYUDg&ll=42.89798299999999%2C-8.420751999999995&z=17")))
         }
-
-
     }
 }

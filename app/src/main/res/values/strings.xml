@@ -51,4 +51,16 @@
     <string name="distanciaTren">Estación de tren: 13 Km</string>
     <string name="distanciaBus">Estación de autobuses: 13 Km</string>
     <string name="distanciaAvion">Aeroporto: 20 Km</string>
+    
+    <string name="libros">LIBROS</string>
+    <string name="libro1">A Cova do Pico</string>
+    <string name="folletos">FOLLETOS</string>
+    <string name="folleto1">Desplegable Pìco Sacro</string>
+    <string name="folleto2">Pico Sacro</string>
+    <string name="folleto3">Turismo</string>
+    <string name="folleto4">Tríptico Pico Sacro</string>
+    <string name="videos">VIDEOS</string>
+    <string name="video1">Vídeo sobre o Pico Sacro</string>
+    <string name="video2">Vídeo de Antena3 sobre o Pico Sacro</string>
+    <string name="video3">Vídeo de portada. O Pico Sacro</string>
 </resources>
