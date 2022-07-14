@@ -78,14 +78,14 @@
                 android:id="@+id/textoPico"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/textoPico"
-                android:textSize="16dp"
-                android:textStyle="italic"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
+                android:text="@string/textoPico"
                 android:textColor="@color/black"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"/>
+                android:textSize="16dp"
+                android:textStyle="italic" />
 
             <TextView
                 android:id="@+id/autorTextoPico"
@@ -100,109 +100,92 @@
                 android:textColor="@color/black"
                 android:textSize="16dp" />
 
-            <ImageButton
-                android:id="@+id/imaxeLocalización"
-                android:layout_width="40dp"
-                android:layout_height="53dp"
-                android:layout_below="@id/autorTextoPico"
-                android:layout_alignParentStart="true"
-                android:layout_marginStart="160dp"
-                android:layout_marginTop="20dp"
-                android:background="#FFFFFF"
-                android:contentDescription="@string/localizacionPico"
-                android:scaleType="fitXY"
-                app:srcCompat="@mipmap/pinganillo" />
-
-            <TextView
-                android:id="@+id/localizacion"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/localizacionPico"
-                android:textSize="16dp"
-                android:layout_marginStart="20dp"
-                android:layout_marginEnd="20dp"
-                android:layout_marginTop="10dp"
-                android:textColor="@color/black"
-                android:layout_below="@+id/imaxeLocalización"/>
-
-            <ImageButton
-                android:id="@+id/imaxeCentroInterpretacion"
-                android:layout_width="60dp"
-                android:layout_height="48dp"
-                android:layout_below="@id/localizacion"
-                android:layout_alignParentStart="true"
-                android:layout_marginStart="150dp"
-                android:layout_marginTop="20dp"
-                android:background="#FFFFFF"
-                android:contentDescription="@string/centroInterpretacionPico"
-                android:scaleType="fitXY"
-                app:srcCompat="@mipmap/ollo" />
-
-
-            <TextView
-                android:id="@+id/centroInterpretacion"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/imaxeCentroInterpretacion"
-                android:layout_alignParentStart="true"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="20dp"
+                android:layout_below="@+id/autorTextoPico"
+                android:layout_centerHorizontal="true"
                 android:gravity="center"
-                android:text="@string/centroInterpretacionPico"
-                android:textColor="@color/blueBoqueixon"
-                android:textSize="14dp" />
-
-            <ImageView
-                android:id="@+id/siluetaPico"
-                android:layout_width="200dp"
-                android:layout_height="70dp"
-                android:layout_below="@id/centroInterpretacion"
-                android:layout_alignParentStart="true"
-                android:layout_marginStart="80dp"
-                android:layout_marginTop="20dp"
-                android:background="#FFFFFF"
-                android:src="@mipmap/siluetapico" />
-
-            <TextView
-                android:id="@+id/monteSagrado"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/siluetaPico"
-                android:layout_alignParentStart="true"
                 android:layout_marginStart="20dp"
-                android:gravity="center"
-                android:layout_marginTop="10dp"
                 android:layout_marginEnd="20dp"
-                android:text="@string/monteSagradoGalicia"
-                android:textColor="@color/blueBoqueixon"
-                android:textSize="14dp" />
-
-            <ImageView
-                android:id="@+id/descargas"
-                android:layout_width="60dp"
-                android:layout_height="48dp"
-                android:layout_below="@id/monteSagrado"
-                android:layout_alignParentStart="true"
-                android:layout_marginStart="150dp"
                 android:layout_marginTop="20dp"
-                android:background="#FFFFFF"
-                android:src="@mipmap/descarga" />
-
-            <TextView
-                android:id="@+id/descargaMultimedia"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/descargas"
-                android:layout_alignParentStart="true"
-                android:layout_marginStart="20dp"
-                android:gravity="center"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="20dp"
                 android:layout_marginBottom="20dp"
-                android:text="@string/descargaMultimedia"
-                android:textColor="@color/blueBoqueixon"
-                android:textSize="14dp" />
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imaxeLocalización"
+                    android:layout_width="40dp"
+                    android:layout_height="53dp"
+                    android:background="#FFFFFF"
+                    android:contentDescription="@string/localizacionPico"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@mipmap/pinganillo" />
+
+                <TextView
+                    android:id="@+id/localizacion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imaxeLocalización"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/localizacionPico"
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+
+                <ImageButton
+                    android:id="@+id/imaxeCentroInterpretacion"
+                    android:layout_width="60dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#FFFFFF"
+                    android:contentDescription="@string/centroInterpretacionPico"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@mipmap/ollo" />
+
+
+                <TextView
+                    android:id="@+id/centroInterpretacion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imaxeCentroInterpretacion"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/centroInterpretacionPico"
+                    android:textColor="@color/blueBoqueixon"
+                    android:textSize="14dp" />
+
+                <ImageView
+                    android:id="@+id/siluetaPico"
+                    android:layout_width="200dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#FFFFFF"
+                    android:src="@mipmap/siluetapico" />
+
+                <TextView
+                    android:id="@+id/monteSagrado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/monteSagradoGalicia"
+                    android:textColor="@color/blueBoqueixon"
+                    android:textSize="14dp" />
+
+                <ImageView
+                    android:id="@+id/descargas"
+                    android:layout_width="60dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#FFFFFF"
+                    android:src="@mipmap/descarga" />
+
+                <TextView
+                    android:id="@+id/descargaMultimedia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/descargaMultimedia"
+                    android:textColor="@color/blueBoqueixon"
+                    android:textSize="14dp" />
+            </LinearLayout>
 
         </RelativeLayout>
 
