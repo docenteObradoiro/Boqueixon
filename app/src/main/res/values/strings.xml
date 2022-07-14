@@ -9,6 +9,12 @@
     <string name="alojamiento">ALOXAMENTO</string>
     <string name="pico_sacro">PICO SACRO</string>
 
+    <string name="folletoTuristico">FOLLETO TURÍSTICO</string>
+    <string name="cookies">Política de cookies</string>
+    <string name="privacidade">Política de privacidade</string>
+    <string name="responsabilidade">Descargo de responsabilidade</string>
+    <string name="webConcello">www.boqueixon.gal</string>
+
     <string name="quefacer">Que facer</string>
     <string name="festas">Festas e feiras</string>
     <string name="rutas">Rutas</string>
