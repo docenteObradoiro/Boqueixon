@@ -63,71 +63,71 @@ android:padding="20dp">
         android:textSize="34sp"
         android:textStyle="bold" />
 
-<ScrollView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="20dp"
-    android:layout_below="@id/tvGastronomia">
-
-
-
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical" >
-
-        <ImageButton
-            android:id="@+id/btBares"
-            android:layout_width="match_parent"
-            android:layout_height="265dp"
-            android:scaleType="fitXY"
-            android:background="@color/white"
-            android:contentDescription="@string/bares"
-            app:srcCompat="@mipmap/iconobares" />
+        android:layout_below="@id/tvGastronomia"
+        android:layout_marginTop="20dp">
 
 
-        <ImageButton
-            android:id="@+id/btRestaurantes"
-            android:layout_width="match_parent"
-            android:layout_height="265dp"
-            android:scaleType="fitXY"
-            android:background="@color/white"
-            android:contentDescription="@string/restaurantes"
-            app:srcCompat="@mipmap/iconorestaurantes" />
-
-
-
-
-        <ImageButton
-            android:id="@+id/btOutrosEstablecementos"
-            android:layout_width="match_parent"
-            android:layout_height="265dp"
-            android:scaleType="fitXY"
-            android:background="@color/white"
-            android:contentDescription="@string/outrosEstablecementos"
-            app:srcCompat="@mipmap/iconooutrosestablecementos" />
-
-
-        <TextView
-            android:id="@+id/tvTituloTextoGastronomia"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/blueBoqueixonTitulos"
-            android:layout_marginBottom="20dp"
-            android:text="@string/gastronomiaTitulo" />
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btBares"
+                android:layout_width="match_parent"
+                android:layout_height="265dp"
+                android:background="@color/white"
+                android:contentDescription="@string/bares"
+                android:scaleType="fitXY"
+                app:srcCompat="@mipmap/iconobares" />
 
 
+            <ImageButton
+                android:id="@+id/btRestaurantes"
+                android:layout_width="match_parent"
+                android:layout_height="265dp"
+                android:background="@color/white"
+                android:contentDescription="@string/restaurantes"
+                android:scaleType="fitXY"
+                app:srcCompat="@mipmap/iconorestaurantes" />
 
-        <TextView
-            android:id="@+id/tvGastronomiaDescricion"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:text="@string/gastronomiaDescricion" />
+
+            <ImageButton
+                android:id="@+id/btOutrosEstablecementos"
+                android:layout_width="match_parent"
+                android:layout_height="265dp"
+                android:background="@color/white"
+                android:contentDescription="@string/outrosEstablecementos"
+                android:scaleType="fitXY"
+                app:srcCompat="@mipmap/iconooutrosestablecementos" />
 
 
-    </LinearLayout>
-</ScrollView>
+            <TextView
+                android:id="@+id/tvTituloTextoGastronomia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/gastronomiaTitulo"
+                android:layout_marginStart="130dp"
+                android:layout_marginEnd="130dp"
+                android:textColor="@color/blueBoqueixonTitulos" />
+
+
+            <TextView
+                android:id="@+id/tvGastronomiaDescricion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/gastronomiaDescricion" />
+
+
+        </LinearLayout>
+    </ScrollView>
 
 
 </RelativeLayout>
