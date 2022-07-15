@@ -23,8 +23,7 @@ class Menu : AppCompatActivity() {
 
         var sairMenu = findViewById<ImageButton>(R.id.equis)
         sairMenu.setOnClickListener {
-            val acceder = Intent(this, MainActivity::class.java)
-            startActivity(acceder)
+            finish()
         }
 
         var queFacer = findViewById<TextView>(R.id.tvQueFacer)
@@ -34,7 +33,7 @@ class Menu : AppCompatActivity() {
         }
 
         var gastronomia = findViewById<TextView>(R.id.tvGastronomia)
-        .setOnClickListener {
+        gastronomia.setOnClickListener {
             val acceder = Intent(this, Gastronomia::class.java)
             startActivity(acceder)
         }

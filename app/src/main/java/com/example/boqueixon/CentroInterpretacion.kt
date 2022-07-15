@@ -18,11 +18,11 @@ class CentroInterpretacion : AppCompatActivity() {
             startActivity(acceder)
         }
 
-        /*var menu=findViewById<ImageButton>(R.id.menuHamburguesa)
+        var menu=findViewById<ImageButton>(R.id.menuHamburguesa)
         menu.setOnClickListener {
-            val acceder= Intent(this, ::class.java)
+            val acceder= Intent(this, Menu::class.java)
             startActivity(acceder)
-        }*/
+        }
 
         var telefono=findViewById<TextView>(R.id.telefonoInterpretacion)
         telefono.setOnClickListener {
