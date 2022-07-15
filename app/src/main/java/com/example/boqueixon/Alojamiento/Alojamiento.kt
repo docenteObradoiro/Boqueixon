@@ -31,7 +31,7 @@ class Alojamiento : AppCompatActivity() {
 
         val carruselCasaDeCasal:ImageCarousel= findViewById(R.id.carousel2)
         casaDeCasal.add(CarouselItem(R.drawable.casa_de_casal3))
-        casaDeCasal.add(CarouselItem(R.drawable.casa_de_casal_texto3))
+        casaDeCasal.add(CarouselItem(R.drawable.casa_de_casal_texto))
         carruselCasaDeCasal.addData(casaDeCasal)
 
         carruselCasaDeCasal.showTopShadow = false
@@ -47,7 +47,7 @@ class Alojamiento : AppCompatActivity() {
 
         val carruselMariaManuelaEnoturismo:ImageCarousel= findViewById(R.id.carousel4)
         mariaManuelaEnoturismo.add(CarouselItem(R.drawable.maria_manuela_enoturismo3))
-        mariaManuelaEnoturismo.add(CarouselItem(R.drawable.maria_manuela_enoturismo_texto3))
+        mariaManuelaEnoturismo.add(CarouselItem(R.drawable.maria_manuela_enoturismo_texto))
         carruselMariaManuelaEnoturismo.addData(mariaManuelaEnoturismo)
 
         carruselMariaManuelaEnoturismo.showTopShadow = false
