@@ -22,6 +22,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
+        var menu = findViewById<ImageButton>(R.id.menuHamburguesa)
+        menu.setOnClickListener {
+            val acceder = Intent(this, Menu::class.java)
+            startActivity(acceder)
+        }
+
+
         var buttonQueFacer = findViewById<Button>(R.id.buttonQueFacer)
         buttonQueFacer.setOnClickListener {
             val acceder = Intent(this, QueFacer::class.java)

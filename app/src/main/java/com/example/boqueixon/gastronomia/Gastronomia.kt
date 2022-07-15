@@ -14,12 +14,12 @@ class Gastronomia : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_gastronomia)
 
-        val menu = findViewById<ImageButton>(R.id.menuHamburguesa)
+
+        var menu = findViewById<ImageButton>(R.id.menuHamburguesa2)
         menu.setOnClickListener {
-            val acceder = Intent (this, MainActivity::class.java)
+            val acceder = Intent(this, com.example.boqueixon.Menu::class.java)
             startActivity(acceder)
         }
-
         val outrosEstablecementos = findViewById<ImageButton>(R.id.btOutrosEstablecementos)
         outrosEstablecementos.setOnClickListener {
             val acceder = Intent (this, OutrosEstablecementos::class.java)

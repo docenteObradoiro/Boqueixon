@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".Menu">
+
+    <ImageButton
+        android:id="@+id/logoboqueixon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:backgroundTint="#FFFFFF"
+        android:contentDescription="@string/logoboqueixon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logoboqueixon"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/boqueixon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-8dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@+id/logoboqueixon"
+        android:fontFamily="@font/nothing_you_could_do"
+        android:text="@string/turismo_de_boqueix_n"
+        android:textColor="#000000" />
+
+    <ImageButton
+        android:id="@+id/equis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:contentDescription="@string/botonmenu"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/equis" />
+
+
+    <TextView
+        android:id="@+id/tvQueFacer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="50dp"
+        android:fontFamily="@font/nothing_you_could_do"
+        android:gravity="end"
+        android:text="@string/quefacer"
+        android:textColor="@color/blueBoqueixon"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvGastronomia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvQueFacer"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:fontFamily="@font/nothing_you_could_do"
+        android:gravity="end"
+        android:text="@string/gastronomiaMinusculas"
+        android:textColor="@color/blueBoqueixon"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvAloxamento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvGastronomia"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:fontFamily="@font/nothing_you_could_do"
+        android:gravity="end"
+        android:text="@string/alojamientoMinusculas"
+        android:textColor="@color/blueBoqueixon"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvPicoSacro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/tvAloxamento"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:fontFamily="@font/nothing_you_could_do"
+        android:gravity="end"
+        android:text="@string/pico_sacro_Minusculas"
+        android:textColor="@color/blueBoqueixon"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvPrincipaisSitiosInterese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvPicoSacro"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="50dp"
+        android:gravity="end"
+        android:text="@string/principaisSitiosInterese"
+        android:textColor="@color/blueBoqueixonTitulos"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tvFestaFilloa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvPrincipaisSitiosInterese"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="50dp"
+        android:fontFamily="@font/nothing_you_could_do"
+        android:gravity="end"
+        android:text="@string/filloa"
+        android:textColor="@color/blueBoqueixon"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tvFestasEFeiras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvFestaFilloa"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="50dp"
+        android:fontFamily="@font/nothing_you_could_do"
+        android:gravity="end"
+        android:text="@string/festas"
+        android:textColor="@color/blueBoqueixon"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/tvAreasNaturais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvFestasEFeiras"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="50dp"
+        android:fontFamily="@font/nothing_you_could_do"
+        android:gravity="end"
+        android:text="@string/areasnaturais"
+        android:textColor="@color/blueBoqueixon"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/tvRutas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvAreasNaturais"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="50dp"
+        android:fontFamily="@font/nothing_you_could_do"
+        android:gravity="end"
+        android:text="@string/rutas"
+        android:textColor="@color/blueBoqueixon"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/tvLGPD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvRutas"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="50dp"
+        android:gravity="end"
+        android:text="@string/lgpd"
+        android:textSize="12sp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tvContacta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvLGPD"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="50dp"
+        android:gravity="end"
+        android:text="@string/contacta"
+        android:textSize="12sp"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

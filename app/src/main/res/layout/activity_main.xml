@@ -232,12 +232,12 @@
                 android:id="@+id/responsabilidade"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_toEndOf="@id/logoBoqueixonByN"
                 android:layout_below="@id/privacidad"
-                android:text="@string/responsabilidade"
-                android:textColor="@color/blueBoqueixon"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="5dp"
-                android:layout_marginStart="20dp"/>
+                android:layout_toEndOf="@id/logoBoqueixonByN"
+                android:text="@string/responsabilidade"
+                android:textColor="@color/blueBoqueixon" />
 
             <TextView
                 android:id="@+id/webBoqueixon"

@@ -7,7 +7,9 @@
     <string name="que_hacer">QUE FACER</string>
     <string name="gastronomia">GASTRONOMÍA</string>
     <string name="alojamiento">ALOXAMENTO</string>
+    <string name="alojamientoMinusculas">Aloxamento</string>
     <string name="pico_sacro">PICO SACRO</string>
+    <string name="pico_sacro_Minusculas">Pico Sacro</string>
 
     <string name="folletoTuristico">FOLLETO TURÍSTICO</string>
     <string name="cookies">Política de cookies</string>
@@ -16,9 +18,11 @@
     <string name="webConcello">www.boqueixon.gal</string>
 
     <string name="quefacer">Que facer</string>
+    <string name="lgpd">Política de Protección de Datos</string>
     <string name="festas">Festas e feiras</string>
     <string name="rutas">Rutas</string>
     <string name="areasnaturais">Áreas naturais</string>
+    <string name="areasnaturaisRutas">Áreas naturais e rutas</string>
 
     <string name="feiras">Feiras e mercados</string>
     <string name="filloa">Festa da filloa</string>
@@ -43,6 +47,15 @@
 
     <string name="relixiosas">Festas relixiosas e
         \nverbenas</string>
+
+    <string name="eligeFormulario">Escolle a forma de contacto</string>
+    <string name="textoFormulario">Escribe aquí a túa mensaxe</string>
+    <string name="formularioDeContacto">FORMULARIO DE CONTACTO</string>
+    <string name="desplegable">Desplegable</string>
+    <string name="direccionConcello">Forte, s/n 15881Boqueixón</string>
+    <string name="telefonoConcello">+34 981513061</string>
+    <string name="telefonoConcelloMovil">+34 630 18 22 81</string>
+    <string name="enviar">Enviar</string>
 
     <string name="areas">Áreas naturais</string>
     <string name="titulogastrar"><u>Área recreativa de Gastrar</u></string>
@@ -98,7 +111,7 @@
     Continuamos por Deseiro de Arriba e a ruta chega xa ao municipio de Santiago de Compostela a través da localidade de A Susana.
     \n\nOutra das Rutas Xacobeas que pasan polo noso concello é o Camiño de Inverno que ao seu paso por Boqueixón segue polo mesmo trazado que a Vía da Prata
         ou Camiño do Sueste.</string>
-=======
+    =======
 
     <string name="textoPico">“Representade na vosa imaxinación unha pirámide colosal sobre o horizonte dun val, un obelisco xigantesco que sae encontro das paisaxes da veiga, unha montaña cónica, coroada, coma a Cibeles da mitoloxía, con fantásticas ameas de cuarzo: velaquí o Pico-Sagro da Ulla-baixa.
         \n\nEsta eminencia é o cráter dos aguaceiros e a fragua dos raios. É o símbolo do misterio e da soidade. A pirámide é unha figura xeométrica que pertence á relixión desde que se colocou sobre os sepulcros. Montaña ou catafalco, a pirámide é a mensaxeira dunha resignada melancolía. 
@@ -116,6 +129,8 @@
     <string name="textoInterior">Neste emprazamento localízase a oficina\nde información turística e a sala de\naudiovisuais. Na mesma atópase unha\nexposición permanente: “O Pico Sacro, nos\ndominios da raíña Lupa”, que achega, dun\nxeito gráfico e didáctico, a toda a maxia\nque rodea ao Monte Sagrado de Galicia.</string>
     <string name="textoVisita">Mediante unha visita guiada é posible\npercorrer catro eixes temáticos: “Un fito\nxeolóxico”, “O lugar do mito”, “O monte\nsagrado” e “A evolución histórica” distribuídos\nen torno a unha maqueta do Pico Sacro e o\nseu entorno.</string>
     <string name="contacto">CONTACTO</string>
+    <string name="contacta">Contacta</string>
+    <string name="principaisSitiosInterese">Principais puntos de interese</string>
     <string name="telefonoInterpretacion">981.513.061 (Turismo de Boqueixón)</string>
     <string name="mailTurismo">boqueixonturismo@gmail.com</string>
     <string name="descargaMultimedia">LIBROS, AUDIOVISUAIS, DESCARGAS</string>
@@ -248,7 +263,6 @@
     <string name="restParrilladaACruzTelf">981513100/ 696290701</string>
 
 
-
     <string name="gastronomiaTitulo">Coñécenos!</string>
 
 
@@ -257,7 +271,6 @@
 \n\nOs amantes do doce non poden deixar de probar a afamada “Tarta de Queixo de Lestedo” , elaborada por Tartas Lestedo, que ten un longo e exitoso percorrido de máis de 30 anos. Ademais desta, elaboran outras variedades (tarta de améndoa, tarta de Santiago (con IXP), tarta de “orujo”, tarta de chocolate, tarta de mazá e froitos do bosque),combinando tradición e experiencia con materias primas selectas.
 \n\nA Queixería Bo-Queixo de Orto, con Denominación de Orixe Protexida Arzúa-Ulloa, que conta con numerosas distincións (Ouro 2015 e 2016 e Plata 2015), elabora queixos artesanais con leite pasteurizada de máxima calidade, que resultan inconfundibles polo seu aroma, textura e sabor.
 \n\nAs numerosas pastelerías e panaderías do municipio: “Panadería San Cidre”, “Pastelería Elena bombonería”, “Panadería Fachal Pastelería”, “Pastelería Panadería Bo Dulce”, “O Forno de Lestedo”, contan cunha destacada elaboración tradicional e artesanal de pan, unha gran variedade de empanadas e unha ampla carta de doces e tortas feitas con materiais 100% naturais e de alta calidade.</string>
-
 
 
 </resources>
