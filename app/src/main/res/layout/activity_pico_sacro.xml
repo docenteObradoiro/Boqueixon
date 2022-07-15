@@ -119,7 +119,8 @@
                     android:background="#FFFFFF"
                     android:contentDescription="@string/localizacionPico"
                     android:scaleType="fitXY"
-                    app:srcCompat="@mipmap/pinganillo" />
+                    app:srcCompat="@mipmap/pinganillo"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <TextView
                     android:id="@+id/localizacion"

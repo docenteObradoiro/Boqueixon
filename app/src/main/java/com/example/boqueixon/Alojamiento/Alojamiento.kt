@@ -1,7 +1,10 @@
 package com.example.boqueixon.Alojamiento
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ImageButton
+import com.example.boqueixon.Menu
 import com.example.boqueixon.R
 import org.imaginativeworld.whynotimagecarousel.CarouselItem
 import org.imaginativeworld.whynotimagecarousel.ImageCarousel
@@ -49,6 +52,13 @@ class Alojamiento : AppCompatActivity() {
 
         carruselMariaManuelaEnoturismo.showTopShadow = false
         carruselMariaManuelaEnoturismo.showBottomShadow = false
+
+
+        var menu = findViewById<ImageButton>(R.id.menuHamburguesa)
+        menu.setOnClickListener {
+            val acceder = Intent(this, Menu::class.java)
+            startActivity(acceder)
+        }
 
     }
 }
