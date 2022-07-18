@@ -53,11 +53,11 @@
         <entry key="..\:/Users/Obradoiro/Boqueixon11/app/src/main/res/layout/activity_ruta_prata.xml" value="0.3582427536231884" />
         <entry key="..\:/Users/Obradoiro/Boqueixon11/app/src/main/res/layout/activity_rutas.xml" value="0.3582427536231884" />
         <entry key="..\:/Users/Obradoiro/Boqueixon11/app/src/main/res/layout/list_item.xml" value="0.30978260869565216" />
-        <entry key="..\:/Users/Obradoiro/Desktop/Boqueixon/app/src/main/res/drawable/ic_baseline_library_books_24.xml" value="0.2735" />
         <entry key="..\:/Users/Obradoiro/Boqueixon123/app/src/main/res/layout/activity_alojamiento.xml" value="0.3625" />
         <entry key="..\:/Users/Obradoiro/Boqueixon123/app/src/main/res/layout/activity_areas_naturais.xml" value="0.3625" />
         <entry key="..\:/Users/Obradoiro/Boqueixon123/app/src/main/res/layout/activity_menu.xml" value="0.3625" />
         <entry key="..\:/Users/Obradoiro/BoqueixonCorreccions/app/src/main/res/layout/activity_quehacer.xml" value="0.14722222222222223" />
+        <entry key="..\:/Users/Obradoiro/Desktop/Boqueixon/app/src/main/res/drawable/ic_baseline_library_books_24.xml" value="0.2735" />
         <entry key="..\:/Users/Obradoiro/Desktop/Boqueixon/app/src/main/res/drawable/ic_baseline_ondemand_video_24.xml" value="0.2375" />
         <entry key="..\:/Users/Obradoiro/Desktop/Boqueixon/app/src/main/res/layout/activity_alojamiento.xml" value="0.296195652173913" />
         <entry key="..\:/Users/Obradoiro/Desktop/Boqueixon/app/src/main/res/layout/activity_areas_naturais.xml" value="0.296195652173913" />
@@ -85,6 +85,7 @@
         <entry key="..\:/Users/Obradoiro/Desktop/Boqueixon/app/src/main/res/layout/list_item.xml" value="0.296195652173913" />
         <entry key="app/src/main/res/drawable/menu_hamburguesa.xml" value="0.2315" />
         <entry key="app/src/main/res/font/nothing_you_could_do.xml" value="0.11666666666666667" />
+        <entry key="app/src/main/res/layout/activity_alojamiento.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_bares.xml" value="0.225" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.172039794921875" />
         <entry key="app/src/main/res/layout/activity_onde_comer.xml" value="0.225" />

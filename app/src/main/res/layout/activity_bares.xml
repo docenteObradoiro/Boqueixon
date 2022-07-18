@@ -102,7 +102,7 @@ tools:context=".gastronomia.Bares"
         <ImageView
             android:id="@+id/imgCerveceriaAbadia"
             android:layout_width="match_parent"
-            android:layout_height="256dp"
+            android:layout_height="200dp"
             android:contentDescription="@string/cerveceríaAbadíaNome"
             app:srcCompat="@mipmap/barabadia" />
 
@@ -117,7 +117,7 @@ tools:context=".gastronomia.Bares"
         <ImageView
             android:id="@+id/imgBarGarcia"
             android:layout_width="match_parent"
-            android:layout_height="256dp"
+            android:layout_height="200dp"
             android:contentDescription="@string/barGarciaNome"
             app:srcCompat="@mipmap/bargarcia" />
 
@@ -132,7 +132,7 @@ tools:context=".gastronomia.Bares"
         <ImageView
             android:id="@+id/imgBarCouto"
             android:layout_width="match_parent"
-            android:layout_height="256dp"
+            android:layout_height="200dp"
             android:contentDescription="@string/barCoutoNome"
             app:srcCompat="@mipmap/barcouto" />
 
@@ -161,7 +161,7 @@ tools:context=".gastronomia.Bares"
         <ImageView
             android:id="@+id/cafeBarQuintela"
             android:layout_width="match_parent"
-            android:layout_height="256dp"
+            android:layout_height="200dp"
             android:contentDescription="@string/barQuintelaNome"
             app:srcCompat="@mipmap/barquintela" />
 
@@ -177,7 +177,7 @@ tools:context=".gastronomia.Bares"
         <ImageView
             android:id="@+id/barORecreo"
             android:layout_width="match_parent"
-            android:layout_height="256dp"
+            android:layout_height="200dp"
             android:contentDescription="@string/barORecreoNome"
             app:srcCompat="@mipmap/barorecreo" />
 
