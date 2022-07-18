@@ -20,7 +20,7 @@ class Filloa : AppCompatActivity() {
 
         var menu = findViewById<ImageButton>(R.id.menuHamburguesa2)
         menu.setOnClickListener {
-            val acceder = Intent(this, Menu::class.java)
+            val acceder = Intent(this, com.example.boqueixon.Menu::class.java)
             startActivity(acceder)
         }
         val maps = findViewById<ImageButton>(R.id.botonFilloa)

@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.widget.ImageButton
 import androidx.appcompat.app.AlertDialog
 import com.example.boqueixon.MainActivity
+import com.example.boqueixon.Menu
 import com.example.boqueixon.R
 import org.imaginativeworld.whynotimagecarousel.CarouselItem
 import org.imaginativeworld.whynotimagecarousel.ImageCarousel
@@ -22,7 +23,7 @@ class OndeComer : AppCompatActivity() {
 
         val menu = findViewById<ImageButton>(R.id.menuHamburguesa)
         menu.setOnClickListener {
-            val acceder = Intent (this, MainActivity::class.java)
+            val acceder = Intent (this, Menu::class.java)
             startActivity(acceder)
         }
 
