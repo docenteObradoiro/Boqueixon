@@ -8,18 +8,18 @@ android:layout_height="match_parent"
 tools:context=".gastronomia.Gastronomia"
 android:padding="20dp">
 
-<ImageButton
-    android:id="@+id/imgBtLogo"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_alignParentStart="true"
-    android:layout_alignParentTop="true"
-    android:backgroundTint="#FFFFFF"
-    android:contentDescription="@string/logoboqueixon"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    app:srcCompat="@drawable/logoboqueixon"
-    tools:ignore="TouchTargetSizeCheck" />
+    <ImageButton
+        android:id="@+id/imgBtLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:backgroundTint="#FFFFFF"
+        android:contentDescription="@string/logoboqueixon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logoboqueixon"
+        tools:ignore="TouchTargetSizeCheck" />
 
 <TextView
     android:id="@+id/tvTurismoBoqueixon"

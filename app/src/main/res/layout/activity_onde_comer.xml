@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".gastronomia.OndeComer">
+    tools:context=".gastronomia.OndeComer"
+    android:padding="20dp">>
 
     <ImageButton
         android:id="@+id/imgBtLogo"
@@ -133,7 +134,7 @@
             <org.imaginativeworld.whynotimagecarousel.ImageCarousel
                 android:id="@+id/carousel3"
                 android:layout_width="match_parent"
-                android:layout_height="256dp"/>
+                android:layout_height="200dp"/>
 
 
             <TextView
@@ -164,7 +165,7 @@
             <org.imaginativeworld.whynotimagecarousel.ImageCarousel
                 android:id="@+id/carousel4"
                 android:layout_width="match_parent"
-                android:layout_height="256dp"/>
+                android:layout_height="200dp"/>
 
 
             <TextView

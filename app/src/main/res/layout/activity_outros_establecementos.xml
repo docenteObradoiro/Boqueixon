@@ -4,7 +4,8 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
-tools:context=".gastronomia.OutrosEstablecementos">
+tools:context=".gastronomia.OutrosEstablecementos"
+    android:padding="20dp">>
 
 <ImageButton
     android:id="@+id/imgBtLogo"
@@ -117,7 +118,9 @@ tools:context=".gastronomia.OutrosEstablecementos">
         <org.imaginativeworld.whynotimagecarousel.ImageCarousel
             android:id="@+id/carousel4"
             android:layout_width="match_parent"
-            android:layout_height="256dp"/>
+            android:layout_height="200dp"
+
+            />
 
 
 
@@ -132,7 +135,7 @@ tools:context=".gastronomia.OutrosEstablecementos">
         <org.imaginativeworld.whynotimagecarousel.ImageCarousel
             android:id="@+id/carousel3"
             android:layout_width="match_parent"
-            android:layout_height="256dp"/>
+            android:layout_height="200dp"/>
 
 
 

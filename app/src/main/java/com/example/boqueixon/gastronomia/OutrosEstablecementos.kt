@@ -18,9 +18,10 @@ class OutrosEstablecementos : AppCompatActivity() {
         setContentView(R.layout.activity_outros_establecementos)
         val menu = findViewById<ImageButton>(R.id.menuHamburguesa)
         menu.setOnClickListener {
-            val acceder = Intent (this, MainActivity::class.java)
+            val acceder = Intent (this, com.example.boqueixon.Menu::class.java)
             startActivity(acceder)
         }
+
 
 
         val carruselLestedo: ImageCarousel = findViewById(R.id.carousel3)
