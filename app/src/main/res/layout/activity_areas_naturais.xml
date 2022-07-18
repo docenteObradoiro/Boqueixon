@@ -89,6 +89,8 @@
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:drawableLeft="@drawable/ic_baseline_location_on_24"
                 android:text="@string/titulogastrar" />
 
             <ImageView
@@ -113,6 +115,8 @@
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:drawableLeft="@drawable/ic_baseline_location_on_24"
                 android:text="@string/titulogres" />
 
             <ImageView
@@ -135,6 +139,8 @@
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:drawableLeft="@drawable/ic_baseline_location_on_24"
                 android:text="@string/titulosucira" />
 
             <ImageView
@@ -157,6 +163,8 @@
                 android:id="@+id/textView10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:drawableLeft="@drawable/ic_baseline_location_on_24"
                 android:text="@string/titulosanpaio" />
 
             <ImageView
