@@ -83,20 +83,21 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/lestedo"
+            <ImageButton
+                android:id="@+id/botonLestedo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="-20dp"
-                android:layout_marginBottom="-20dp"
+                android:backgroundTint="#FFFFFF"
+                android:contentDescription="BotonLestedo"
                 app:srcCompat="@mipmap/lestedo" />
 
-            <ImageView
-                android:id="@+id/rodino"
+            <ImageButton
+                android:id="@+id/botonRodino"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="-20dp"
-                android:layout_marginBottom="-20dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#FFFFFF"
+                android:contentDescription="BotonRodino"
                 app:srcCompat="@mipmap/rodino" />
         </LinearLayout>
     </ScrollView>
